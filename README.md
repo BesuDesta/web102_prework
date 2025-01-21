@@ -25,6 +25,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src="https://i.imgur.com/wxWDHZb.gif" title='Video Walkthrough' width='100px' alt='Video Walkthrough' />
+![prework](https://github.com/user-attachments/assets/8b3184be-b2bf-44b1-bcff-65634c3c7952)
 
 
 GIF created with ScreenToGif  
