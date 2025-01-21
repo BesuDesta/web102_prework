@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #333333;
 }
 
 #tentacles {
@@ -11,7 +11,8 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: black;
+    color: white;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -19,12 +20,69 @@ body {
     margin-top: -10px;
 }
 
+.welcome {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+    color: white;
+}
+
+.sts {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    align-items: center;
+    flex-flow: row nowrap; 
+    color: lightgray;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+    flex-flow: row nowrap; 
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.games h2 {
+    display: flex;
+    margin-top: 100px;
+    flex-flow: wrap;
+    color: lightgray;
+    padding: auto;
+    margin-left: 20px;
+}
+
+.games p {
+    display: flex;
+    flex-flow: wrap;
+    color: lightgray;
+    padding: auto;
+    margin-left: 20px;
+}  
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-flow: row wrap; 
+    }
+}
+
+
+.stats-card:hover {
+    box-shadow: 0 0 30px lightblue;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: black;
+    color: white;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -49,7 +107,8 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: black;
+    color: white;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -60,6 +119,9 @@ body {
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    transition: 0.3s;
+    color: black;
+    background-color: #a8b0bc;
 }
 
 #button-container {
@@ -72,4 +134,13 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+    transition: 0.3s;
+    color: black;
+    background-color: white;
 }
