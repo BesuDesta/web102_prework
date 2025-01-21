@@ -4,7 +4,7 @@ Submitted by: Besufekad Desta
 
 Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 6 hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
@@ -17,29 +17,25 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 * [x] Change the look of the website by updating the styles.css file.
-* [x] Added a navigation bar with two buttons that direct the user to the list of games and the stats.
+* [x] Added a navigation bar with three buttons that direct the user to the list of games, the stats, and the donate section.
 * [x] Added a mock donate section where a user that wants to donate can enter their name email and amount they want to donate.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/wxWDHZb.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
+GIF created with ScreenToGif  
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challege that I came across was small typos that lead me into so many tangents. When I couldn't figure what was wrong I'd decide to come back later with a fresh set of eyes.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Besufekad Desta]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
