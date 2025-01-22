@@ -61,10 +61,27 @@ html {
     display: flex;
     align-items: center;
     flex-flow: wrap;
+    flex-direction: column;
     margin-left: 1%;
     margin-right: 1%;
     font-size: 20px;
     color: white;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.welcome p {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.welcome :hover {
+    color: lightblue;
+    transition: 0.3s;
 }
 
 .sts {
