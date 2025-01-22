@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features: (https://github.com/user-attachments/assets/8b3184be-b2bf-44b1-bcff-65634c3c7952)
+Here's a walkthrough of implemented features:(https://github.com/user-attachments/assets/b74edfb5-c85e-485f-b73b-a7f495e7ade7)
+
 
 
 GIF created with ScreenToGif  
